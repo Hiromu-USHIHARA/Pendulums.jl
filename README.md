@@ -23,14 +23,15 @@ The core solvers are implemented from scratch, including a 4th order Runge-Kutta
 
 ```
 Pendulums.jl/
-├── ODESolvers.jl           # Runge-Kutta and symplectic integrator
-├── Pendulum.jl             # Dynamics of single and double pendulums
-├── examples1.jl            # Basic single pendulum animation
-├── examples2.jl            # Damping and forced oscillation analysis
-├── examples3.jl            # Double pendulum and chaos visualization
-├── examples4.jl            # Comparison: numerical vs analytical solution
-├── images/                 # GIFs and figures
-└── README.md               # This file
+├── src/
+│   ├── ODESolvers.jl           # Runge-Kutta and symplectic integrator
+│   ├── Pendulum.jl             # Dynamics of single and double pendulums
+│   ├── examples1.jl            # Basic single pendulum animation
+│   ├── examples2.jl            # Damping and forced oscillation analysis
+│   ├── examples3.jl            # Double pendulum and chaos visualization
+│   ├── examples4.jl            # Comparison: numerical vs analytical solution
+├── images/                    # GIFs and figures
+└── README.md                  # This file
 ```
 
 ---
