@@ -3,7 +3,7 @@
 A Julia simulation and visualization project for single and double pendulums, illustrating their classical and chaotic dynamics.
 
 <p align="center">
-  <img src="/images/double_pendulum.gif" alt="Double pendulums" width="400"/>
+  <img src="/images/double_pendulum_initial_condition.gif" alt="Double pendulums" width="400"/>
   <img src="/images/double_pendulum.linear_approximation1.png" alt="Comparison with linear approximation" width="400"/>
 </p>
 
