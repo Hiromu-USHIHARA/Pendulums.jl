@@ -74,6 +74,12 @@ include("examples1.jl")  # or any other example
 
 ---
 
+## Background
+
+- TBA
+
+---
+
 ## Notes
 
 - Created by Ushihara as a side project for learning and exploration.
