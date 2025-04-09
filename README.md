@@ -91,6 +91,7 @@ where $\Delta:=\theta_1-\theta_2$. The dynamics shows chaotic behaviors.
 
 <p align="center">
   <img src="/images/double_pendulum_trace.gif" alt="Double pendulums with trace" width="400"/>
+  <img src="/images/double_pendulum_initial_condition.gif" alt="Double pendulums" width="400"/>
 </p>
 
 In particular when the amplitudes $\theta_1$ and $\theta_2$ are small, they are linearized:
