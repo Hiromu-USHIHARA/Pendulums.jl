@@ -76,9 +76,10 @@ include("examples1.jl")  # or any other example
 
 ## Background
 
-The Euler--Lagrange equation for the double pendulum is
-$$(m_1+m_2){L_1}^2\ddot \theta_1+m_2L_1L_2\left[\ddot\theta_2\cos(\theta_1-\theta_2)+{\dot\theta_2}^2\sin(\theta_1-\theta_2)\right]=-(m_1+m_2)L_2 g\sin\theta_1$$
+The Euler--Lagrange equations for the double pendulum are given as
 
+$$(m_1+m_2){L_1}^2\ddot \theta_1+m_2L_1L_2\left[\ddot\theta_2\cos(\theta_1-\theta_2)+{\dot\theta_2}^2\sin(\theta_1-\theta_2)\right]=-(m_1+m_2)gL_2 \sin\theta_1$$
+$$m_2{L_2}^2\ddot\theta_2+m_2L_1L_2\left[\ddot\theta_1\cos(\theta_1-\theta_2)-{\dot\theta_1}^2\sin(\theta_1-\theta_2)\right]=-m_2gL_2\sin\theta_2$$
 
 ---
 
