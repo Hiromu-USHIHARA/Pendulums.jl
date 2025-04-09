@@ -78,8 +78,12 @@ include("examples1.jl")  # or any other example
 
 The Euler--Lagrange equations for the double pendulum are given as
 
-$$(m_1+m_2){L_1}^2\ddot \theta_1+m_2L_1L_2\left[\ddot\theta_2\cos(\theta_1-\theta_2)+{\dot\theta_2}^2\sin(\theta_1-\theta_2)\right]=-(m_1+m_2)gL_2 \sin\theta_1$$
-$$m_2{L_2}^2\ddot\theta_2+m_2L_1L_2\left[\ddot\theta_1\cos(\theta_1-\theta_2)-{\dot\theta_1}^2\sin(\theta_1-\theta_2)\right]=-m_2gL_2\sin\theta_2$$
+$$(m_1+m_2){L_1}^2\ddot \theta_1+m_2L_1L_2\left[\ddot\theta_2\cos(\theta_1-\theta_2)+{\dot\theta_2}^2\sin(\theta_1-\theta_2)\right]=-(m_1+m_2)gL_2 \sin\theta_1,$$
+$$m_2{L_2}^2\ddot\theta_2+m_2L_1L_2\left[\ddot\theta_1\cos(\theta_1-\theta_2)-{\dot\theta_1}^2\sin(\theta_1-\theta_2)\right]=-m_2gL_2\sin\theta_2.$$
+
+Under the conditions of $m_1=m_2=m$ and $L_1=L_2=L$, the equations are simplified as follows:
+
+$$\ddot\theta_1=\cfrac{-{\dot\theta_1}^2\sin\Delta\cos\Delta-{\dot\theta_2}^2\sin\Delta+\cfrac{g}{L}(\sin\theta_2\cos\Delta-2\sin\theta_1)}{2-\cos\Delta}$$
 
 ---
 
