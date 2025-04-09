@@ -104,10 +104,11 @@ For simplicity, let us consider the initial condition of $\dot\theta_1(t=0)=\dot
 $$\theta_1(t)=\dfrac{1}{2}\left(\theta_1(t=0)-\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_+ t+\dfrac{1}{2}\left(\theta_1(t=0)+\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_-t,$$
 $$\theta_2(t)=-\dfrac{\sqrt2}{2}\left(\theta_1(t=0)-\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_+ t+\dfrac{\sqrt2}{2}\left(\theta_1(t=0)+\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_-t,$$
 
-where $\Omega_\pm:=\sqrt{\dfrac{g}{L}\left(2+\sqrt2\right)}$. The comparison between the numerically obtained solution and the analytical expression for $\theta_1(t)$ shows the good agreement!
+where $\Omega_\pm:=\sqrt{\dfrac{g}{L}\left(2+\sqrt2\right)}$. The comparison between the numerically obtained solution and the analytical expression for $\theta_1(t)$ and $\theta_2(t)$ shows the good agreement!
 
 <p align="center">
   <img src="/images/double_pendulum.linear_approximation1.png" alt="Comparison with linear approximation" width="400"/>
+  <img src="/images/double_pendulum.linear_approximation2.png" alt="Comparison with linear approximation" width="400"/>
 </p>
 
 ---
