@@ -87,7 +87,7 @@ $$\ddot\theta_1=\cfrac{-{\dot\theta_1}^2\sin\Delta\cos\Delta-{\dot\theta_2}^2\si
 $$\ddot\theta_2=\cfrac{{\dot\theta_2}^2\cos\Delta\sin\Delta+2{\dot\theta}^2\sin\Delta+\cfrac{2g}{L}(\sin\theta_1\cos\Delta-\sin\theta_2)
 }{2-\cos\Delta},$$
 
-where $\Delta:=\theta_1-\theta_2$.
+where $\Delta:=\theta_1-\theta_2$. The dynamics shows chaotic behaviors.
 
 <p align="center">
   <img src="/images/double_pendulum_trace.gif" alt="Double pendulums with trace" width="400"/>
@@ -100,7 +100,9 @@ $$\ddot\theta_2=\dfrac{2g}{L}\theta_1-\dfrac{2g}{L}\theta_2.$$
 
 For simplicity, let us consider the initial condition of $\dot\theta_1(t=0)=\dot\theta_2(t=0)=0$. Then the linearized equation explicitly solved and the solution is given by
 
-$$\theta_1(t)=\dfrac{1}{2}\left(\theta_1(t=0)-\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_+ t+\dfrac{1}{2}\left(\theta_1(t=0)+\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_-t$$
+$$\theta_1(t)=\dfrac{1}{2}\left(\theta_1(t=0)-\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_+ t+\dfrac{1}{2}\left(\theta_1(t=0)+\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_-t,$$
+$$\theta_2(t)=-\dfrac{\sqrt2}{2}\left(\theta_1(t=0)-\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_+ t+\dfrac{\sqrt2}{2}\left(\theta_1(t=0)+\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_-t.$$
+
 
 ---
 
