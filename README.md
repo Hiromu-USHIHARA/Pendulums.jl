@@ -74,7 +74,7 @@ include("examples1.jl")  # or any other example
 
 ---
 
-## Background
+## Background of Double Pendulum
 
 The Euler--Lagrange equations for the double pendulum are given as
 
@@ -88,6 +88,10 @@ $$\ddot\theta_2=\cfrac{{\dot\theta_2}^2\cos\Delta\sin\Delta+2{\dot\theta}^2\sin\
 }{2-\cos\Delta},$$
 
 where $\Delta:=\theta_1-\theta_2$.
+
+<p align="center">
+  <img src="/images/double_pendulum_trace.gif" alt="Double pendulums with trace" width="400"/>
+</p>
 
 In particular when the amplitudes $\theta_1$ and $\theta_2$ are small, they are linearized:
 
