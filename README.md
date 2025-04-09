@@ -83,7 +83,11 @@ $$m_2{L_2}^2\ddot\theta_2+m_2L_1L_2\left[\ddot\theta_1\cos(\theta_1-\theta_2)-{\
 
 Under the conditions of $m_1=m_2=m$ and $L_1=L_2=L$, the equations are simplified as follows:
 
-$$\ddot\theta_1=\cfrac{-{\dot\theta_1}^2\sin\Delta\cos\Delta-{\dot\theta_2}^2\sin\Delta+\cfrac{g}{L}(\sin\theta_2\cos\Delta-2\sin\theta_1)}{2-\cos\Delta}$$
+$$\ddot\theta_1=\cfrac{-{\dot\theta_1}^2\sin\Delta\cos\Delta-{\dot\theta_2}^2\sin\Delta+\cfrac{g}{L}(\sin\theta_2\cos\Delta-2\sin\theta_1)}{2-\cos\Delta},$$
+$$\ddot\theta_2=\cfrac{{\dot\theta_2}^2\cos\Delta\sin\Delta+2{\dot\theta}^2\sin\Delta+\cfrac{2g}{L}(\sin\theta_1\cos\Delta-\sin\theta_2)
+}{2-\cos\Delta}$$,
+
+where $\Delta:=\theta_1-\theta_2$.
 
 ---
 
