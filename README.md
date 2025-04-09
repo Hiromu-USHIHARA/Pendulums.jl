@@ -76,7 +76,9 @@ include("examples1.jl")  # or any other example
 
 ## Background
 
-- TBA
+The Euler--Lagrange equation for the double pendulum is
+$$(m_1+m_2){L_1}^2\ddot \theta_1+m_2L_1L_2\left[\ddot\theta_2\cos(\theta_1-\theta_2)+{\dot\theta_2}^2\sin(\theta_1-\theta_2\right)\right]=-(m_1+m_2)L_2 g\sin\theta_1$$
+
 
 ---
 
