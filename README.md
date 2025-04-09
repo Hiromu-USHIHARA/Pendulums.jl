@@ -101,8 +101,9 @@ $$\ddot\theta_2=\dfrac{2g}{L}\theta_1-\dfrac{2g}{L}\theta_2.$$
 For simplicity, let us consider the initial condition of $\dot\theta_1(t=0)=\dot\theta_2(t=0)=0$. Then the linearized equation explicitly solved and the solution is given by
 
 $$\theta_1(t)=\dfrac{1}{2}\left(\theta_1(t=0)-\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_+ t+\dfrac{1}{2}\left(\theta_1(t=0)+\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_-t,$$
-$$\theta_2(t)=-\dfrac{\sqrt2}{2}\left(\theta_1(t=0)-\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_+ t+\dfrac{\sqrt2}{2}\left(\theta_1(t=0)+\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_-t.$$
+$$\theta_2(t)=-\dfrac{\sqrt2}{2}\left(\theta_1(t=0)-\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_+ t+\dfrac{\sqrt2}{2}\left(\theta_1(t=0)+\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_-t,$$
 
+where $\Omega_\pm:=\sqrt{\dfrac{g}{L}\left(2+\sqrt2\right)$.
 
 ---
 
