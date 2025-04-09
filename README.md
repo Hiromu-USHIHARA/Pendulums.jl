@@ -79,23 +79,24 @@ include("examples1.jl")  # or any other example
 The Euler--Lagrange equations for the double pendulum are given as
 
 $$(m_1+m_2){L_1}^2\ddot \theta_1+m_2L_1L_2\left[\ddot\theta_2\cos(\theta_1-\theta_2)+{\dot\theta_2}^2\sin(\theta_1-\theta_2)\right]=-(m_1+m_2)gL_2 \sin\theta_1,$$
-
 $$m_2{L_2}^2\ddot\theta_2+m_2L_1L_2\left[\ddot\theta_1\cos(\theta_1-\theta_2)-{\dot\theta_1}^2\sin(\theta_1-\theta_2)\right]=-m_2gL_2\sin\theta_2.$$
 
 Under the conditions of $m_1=m_2=m$ and $L_1=L_2=L$, the equations are simplified as follows:
 
 $$\ddot\theta_1=\cfrac{-{\dot\theta_1}^2\sin\Delta\cos\Delta-{\dot\theta_2}^2\sin\Delta+\cfrac{g}{L}(\sin\theta_2\cos\Delta-2\sin\theta_1)}{2-\cos\Delta},$$
-
 $$\ddot\theta_2=\cfrac{{\dot\theta_2}^2\cos\Delta\sin\Delta+2{\dot\theta}^2\sin\Delta+\cfrac{2g}{L}(\sin\theta_1\cos\Delta-\sin\theta_2)
-}{2-\cos\Delta}$$,
+}{2-\cos\Delta},$$
 
 where $\Delta:=\theta_1-\theta_2$.
 
-In particular when the amplitudes $\theta_1$ and $\theta_2$ are small, they are 
+In particular when the amplitudes $\theta_1$ and $\theta_2$ are small, they are linearized:
 
 $$\ddot\theta_1=-\dfrac{2g}{L}\theta_1+\dfrac{g}{L}\theta_2,$$
-
 $$\ddot\theta_2=\dfrac{2g}{L}\theta_1-\dfrac{2g}{L}\theta_2.$$
+
+For simplicity, let us consider the initial condition of $\dot\theta_1(t=0)=\dot\theta_2(t=0)=0$. Then the linearized equation explicitly solved and the solution is given by
+
+$$\theta_1(t)=\dfrac{1}{2}\left(\theta_1(t=0)-\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_+ t+\dfrac{1}{2}\left(\theta_1(t=0)+\dfrac{\theta_2(t=0)}{\sqrt2}\right)\cos\Omega_-t$$
 
 ---
 
