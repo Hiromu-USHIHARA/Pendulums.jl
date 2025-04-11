@@ -55,7 +55,6 @@ Pendulums.jl/
 ```julia
 using Pkg
 Pkg.add("Plots")
-Pkg.add("FFMPEG")  # For GIF generation
 
 include("ODESolvers.jl")
 include("Pendulum.jl")
